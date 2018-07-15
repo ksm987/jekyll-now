@@ -24,29 +24,19 @@ Find the sum of all the multiples of 3 or 5 below 1000.
 ### [java]
 ```java
 public class Test { 
-
         public static void main(String[] args) { 
-
                Multiple_of_3and5(1000); 
-
     } 
 
         public static void Multiple_of_3and5(int num) { 
-
                int result=0; 
 
                for(int i=1; i<num; i++) { 
-
                        if(i % 3 == 0 || i % 5 == 0) { 
-
                               result+=i; 
-
                        } 
-
                } 
-
                System.out.println("3,5의 배수의 총합: " + result ); 
-
         } 
 
 }
