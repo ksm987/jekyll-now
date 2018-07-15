@@ -81,4 +81,5 @@ void Multiple_of_3and5(int num)
 ----
 
 [출력]
+
 3,5의 배수의 총합 : 233168
